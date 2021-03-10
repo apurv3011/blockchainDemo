@@ -1,0 +1,101 @@
+html {
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body > .container {
+  padding: 131px 15px 0;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+body > .container-fluid {
+  padding: 116px 15px 0;
+}
+
+.container-fluid .text-muted {
+  margin: 25px 0;
+}
+
+input {
+  font-family: monospace;
+}
+
+.row {
+  margin-right: 56px;
+  margin-left: 35px;
+}
+
+.well-success {
+  background: rgb(223, 240, 216);
+}
+
+.well-error {
+  background: rgb(250, 220, 220);
+}
+.navbar {
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #282c33;
+  border: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -o-transition: all .6s;
+  -moz-transition: all .6s;
+  -webkit-transition: all .6s;
+  -ms-transition: all .6s;
+  transition: all .6s;
+}
+
+ul.navbar-nav {
+  font-size: 20px;
+
+  color: floralwhite;
+}
+
+.navbar-inverse ul.navbar-nav li a {
+  color: floralwhite;
+  opacity: 0.5;
+  border: 0;
+}
+
+.navbar-inverse ul.navbar-nav li a:hover {
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  border: 0;
+}
+
+.navbar-inverse ul.navbar-nav li a:focus {
+  color: #fff;
+  outline: 0;
+  opacity: 1;
+  font-weight: bold;
+  border: 0;
+}
+
+
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover {
+  color: #fff;
+  /* background: #000; */
+}
+
+.navbar-brand{
+  font-size: 30px;
+  color: aliceblue;
+   font-family: 'Akaya Telivigala', cursive;
+   font-weight: 900;
+   /* "<align-self;>Blockchain</a> */
+        
+}

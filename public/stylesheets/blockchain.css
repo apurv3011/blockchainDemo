@@ -13,6 +13,7 @@ body > .container {
   padding: 131px 15px 0;
 }
 
+
 .container .text-muted {
   margin: 20px 0;
 }
@@ -54,6 +55,7 @@ input {
   -webkit-transition: all .6s;
   -ms-transition: all .6s;
   transition: all .6s;
+  display: flex;
 }
 
 ul.navbar-nav {
@@ -61,7 +63,13 @@ ul.navbar-nav {
 
   color: floralwhite;
 }
-
+.navbar-right{
+  margin-right: -139px;
+}
+.navbar-nav{
+  
+  margin-left: 222px;
+}
 .navbar-inverse ul.navbar-nav li a {
   color: floralwhite;
   opacity: 0.5;
@@ -98,4 +106,14 @@ ul.navbar-nav {
    font-weight: 900;
    /* "<align-self;>Blockchain</a> */
         
+}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  align-items: flex-end;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
 }

@@ -1,23 +1,13 @@
-var difficulty = 4;        // number of zeros required at front of hash
-var maximumNonce = 500000; // limit the nonce to this so we don't mine too long
+var difficulty = 4;        
+var maximumNonce = 500000; 
 
-// NOTE: Because there are 16 possible characters in a hex value, each time you increment
-// the difficulty by one you make the puzzle 16 times harder. In my testing, a difficulty
-// of 6 requires a maximumNonce well over 500,000,000.
-
-/////////////////////////
-// global variable setup
-/////////////////////////
 var pattern = '';
 for (var x=0; x<difficulty; x++) {
   pattern += '0';
 }
 
-/////////////////////////
-// functions
-/////////////////////////
 function sha256(block, chain) {
-  // calculate a SHA256 hash of the contents of the block
+  
   return CryptoJS.SHA256(getText(block, chain));
 }
 
